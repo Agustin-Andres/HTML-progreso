@@ -1,0 +1,14 @@
+ header{
+    border: 4px, cornflowerblue;
+    background-attachment: fixed;
+    background-color: cadetblue;
+    font-style: normal;
+    color: cornflowerblue;
+  
+    }
+.header-iD{
+
+color: hsl(218, 50%, 20); 
+background-color: darkslategrey;
+
+}
