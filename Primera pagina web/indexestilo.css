@@ -1,6 +1,8 @@
 body {
 
     background-color: #F1F0CC;
+    position: relative;
+    margin-top: 150px;
 }
 
 
@@ -21,49 +23,52 @@ body {
     font-weight: 200;
     text-shadow: 5px 5px 25px #A71D31;
 
-    position: relative;
+    position: fixed;
     z-index: 1;
+    margin-top: -150px;
 }
-div a{
+
+div a {
+    position: relative;
+    display: inline-block;
+    width: 1330px;
+    z-index: 1;
     color: #3F0D12;
 }
-
-
-
 .inicio-aa {
 
-    position: absolute;
+    position: fixed;
     top: 35px;
-    left: 100px;
+    left: 110px;
 
 }
-
 .inicio-ab {
 
-    position: absolute;
+    position: fixed;
     top: 35px;
-    left: 270px;
+    left: 280px;
 
 }
 
 .inicio-ac {
 
-    position: absolute;
+    position: relative;
     top: 35px;
     left: 500px;
 
 }
 
 
-.articulo-1{
+.articulo-1 {
 
-width: 800px;
-box-sizing: border-box;
-display: block;
-margin: 3px 3px;
+    width: 800px;
+    box-sizing: border-box;
+    display: block;
+    margin: 3px 3px;
 
 }
-.articulo-1__h2{
+
+h2 {
     font-size: 30px;
 
     font-family: 'Hubballi', cursive;
@@ -73,28 +78,40 @@ margin: 3px 3px;
     text-shadow: 5px 5px 8px #6C809A;
 }
 
-.articulo_1__seccion{
+.articulo_1__seccion {
     line-height: 20px;
     font-weight: 450;
- 
+
 
 }
-.articulo_1__aside{
+
+.articulo_1__aside {
 
     box-sizing: border-box;
     display: block;
     margin: 3px 3px;
     width: 450px;
     position: absolute;
-    right: 10px;;
-    top: 105px;
+    right: 10px;
+    top: -30px;
+    
 }
-.articulo_1__aside__h3{
+
+h3 {
 
     font-family: 'Hubballi', cursive;
     line-height: 22px;
-    font-size:      25px;
+    font-size: 25px;
     font-weight: 600;
     text-shadow: 5px 5px 8px #6C809A;
-    
+}
+
+.articulo_1__seccion {
+
+    margin-left: 20px;
+}
+
+.articulo_2__seccion {
+    width: 850px;
+    margin-left: 20px;
 }
