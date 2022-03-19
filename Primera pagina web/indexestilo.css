@@ -9,7 +9,7 @@ body {
 .header-id {
 
     height: 100px;
-    width: auto;
+    width: 96vw;
     box-sizing: border-box;
     display: block;
     margin: 3px 3px;
@@ -58,4 +58,23 @@ div a {
 
 }
 
+.Wallpaper{
+    position: relative;
+    display: inline-block;
+    height: 900px;
+    width: 98vw;
+    margin-left: -10px;
+    margin-top: -200px;
+    background-color: #354b72;
+}
+.Wallpaper h1{
 
+    position: relative;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    color: #F1F0CC;
+    font-size: 50px;
+    left: 40px;
+    top: -750px;
+}
